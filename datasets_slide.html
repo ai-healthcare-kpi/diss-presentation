@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Датасети рентгенівських знімків</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    width: 100%; height: 100%;
+    background: #0f1117;
+    color: #e8e8e8;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+  }
+
+  .slide {
+    width: 100%; height: 100%;
+    padding: 1.6em 2.2em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #ffffff;
+    border-bottom: 1px solid #2e3245;
+    padding-bottom: 0.4em;
+    margin-bottom: 0.8em;
+    flex-shrink: 0;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.4em;
+    flex: 1;
+    min-height: 0;
+  }
+
+  .card {
+    background: #1a1d2e;
+    border: 1px solid #2e3245;
+    border-radius: 10px;
+    padding: 1em 1.2em;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .card h2 {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 0.15em;
+  }
+
+  .card .subtitle {
+    font-size: 0.73em;
+    color: #8b8fa8;
+    margin-bottom: 0.7em;
+    flex-shrink: 0;
+  }
+
+  .params { flex: 1; display: flex; flex-direction: column; justify-content: space-between; }
+
+  .param {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.22em 0;
+    border-bottom: 1px solid #2a2d3e;
+    font-size: 0.78em;
+    gap: 0.5em;
+  }
+  .param:last-child { border-bottom: none; }
+
+  .param-label { color: #8b8fa8; white-space: nowrap; }
+  .param-value { color: #e8e8e8; font-weight: 500; text-align: right; }
+
+  .badge {
+    display: inline-block;
+    font-size: 0.72em;
+    font-weight: 600;
+    padding: 0.12em 0.5em;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+  }
+  .badge-teal { background: #0e4d3a; color: #4ecba0; border: 1px solid #1a6b52; }
+  .badge-blue { background: #0c2d52; color: #5da8f5; border: 1px solid #1a4a7a; }
+  .badge-gray { background: #252838; color: #9da3bf; border: 1px solid #3a3f58; }
+
+  .card-teal h2 { color: #4ecba0; }
+  .card-teal     { border-color: #1a6b52; }
+  .card-blue h2  { color: #5da8f5; }
+  .card-blue     { border-color: #1a4a7a; }
+
+  .footer {
+    margin-top: 0.8em;
+    font-size: 0.68em;
+    color: #555a72;
+    border-top: 1px solid #2e3245;
+    padding-top: 0.5em;
+    text-align: center;
+    flex-shrink: 0;
+  }
+</style>
+</head>
+<body>
+<div class="slide">
+
+  <h1>Набори даних рентгенівських знімків</h1>
+
+  <div class="grid">
+
+    <!-- ── SH ── -->
+    <div class="card card-teal">
+      <h2>Shenzhen Hospital (SH)</h2>
+      <div class="subtitle">Tuberculosis screening · NLM / Shenzhen No.3 Hospital</div>
+      <div class="params">
+        <div class="param"><span class="param-label">Всього знімків</span><span class="param-value">662</span></div>
+        <div class="param"><span class="param-label">Без патології</span><span class="param-value">326</span></div>
+        <div class="param"><span class="param-label">Патологія (ТБ)</span><span class="param-value">336</span></div>
+        <div class="param"><span class="param-label">Формат</span><span class="param-value"><span class="badge badge-teal">PNG</span></span></div>
+        <div class="param"><span class="param-label">Роздільна здатність</span><span class="param-value">~3000 × 3000 px</span></div>
+        <!-- <div class="param"><span class="param-label">Розмір пікселя</span><span class="param-value">0.175 мм</span></div> -->
+        <div class="param"><span class="param-label">Метадані</span><span class="param-value">стать, вік, опис</span></div>
+        <!-- <div class="param"><span class="param-label">Ліцензія</span><span class="param-value"><span class="badge badge-gray">CC-BY 4.0</span></span></div> -->
+      </div>
+    </div>
+
+    <!-- ── JSRT ── -->
+    <div class="card card-blue">
+      <h2>JSRT &amp; BSE-JSRT</h2>
+      <div class="subtitle">Pulmonary nodule detection · Japanese Society of Radiological Technology</div>
+      <div class="params">
+        <div class="param"><span class="param-label">Всього знімків</span><span class="param-value">247</span></div>
+        <div class="param"><span class="param-label">З вузликами (nodules)</span><span class="param-value">154 (100 злоякісних + 54 доброякісних)</span></div>
+        <div class="param"><span class="param-label">Без вузликів</span><span class="param-value">93</span></div>
+        <div class="param"><span class="param-label">Роздільна здатність</span><span class="param-value">2048 × 2048 px</span></div>
+        <div class="param"><span class="param-label">Розмір пікселя</span><span class="param-value">0.175 мм</span></div>
+        <div class="param"><span class="param-label">Глибина кольору</span><span class="param-value">12 bit </span></div>
+        <div class="param"><span class="param-label">BSE-JSRT</span><span class="param-value">видалені тіні кісток</span></div>
+        <div class="param"><span class="param-label">Формат</span><span class="param-value"><span class="badge badge-blue">PNG</span></span></div>
+        <div class="param"><span class="param-label">Метадані</span><span class="param-value">стать, вік, координати та розмір вузликів</span></div>
+      </div>
+    </div>
+    <!-- 16-bit TIFF / IMG -->
+
+  </div>
+
+<!--   <div class="footer">
+    Jaeger et al. (2014) · Quant. Imaging Med. Surg. &nbsp;|&nbsp; NLM / NIH Public Datasets
+  </div> -->
+
+</div>
+</body>
+</html>

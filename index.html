@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Метод глибинного машинного навчання для ідентифікації, класифікації та семантичної сегментації об'єктів</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="./assets/katex.min.css">
+    <link rel="stylesheet" href="./assets/style2.css">
+    <link rel="stylesheet" href="./assets/grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tomorrow.min.css">
+  </head>
+  <body>
+    <textarea id="source"></textarea>
+    <script src="./assets/remark.min.js"></script>
+    <script src="./assets/katex.min.js"></script>
+    <script src="./assets/auto-render.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script type="text/javascript">
+        /*вставити посилання */
+        var QR_URL = 'https://docs.google.com/spreadsheets/d/1klLBoxAHcaCt_xi6hSAnBVTWXZqS9-j743C29vdzrUs/edit?usp=sharing';
+
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        var options = {sourceUrl: getParameterByName("p"),
+                       highlightStyle: "tomorrow"};
+
+        var renderMath = function() {
+            renderMathInElement(document.body, {delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$",  right: "$",  display: false},
+                {left: "\\[", right: "\\]", display: true},
+                {left: "\\(", right: "\\)", display: false},
+            ]});
+        }
+
+        var slideshow = remark.create(options, renderMath);
+
+        function tryRenderQR() {
+            var el = document.getElementById('qr-render');
+            if (!el || el.hasChildNodes()) return;
+            new QRCode(el, {
+                text: QR_URL,
+                width: 160,
+                height: 160,
+                colorDark: '#000000',
+                colorLight: '#ffffff',
+                correctLevel: QRCode.CorrectLevel.H
+            });
+        }
+
+        slideshow.on('afterShowSlide', tryRenderQR);
+        setTimeout(tryRenderQR, 500);
+    </script>
+  </body>
+</html>
