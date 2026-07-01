@@ -10,16 +10,20 @@ background-size: cover
 Доктор фiлософії
 
 
-<br><br><br>
+<br><br><br><br>
 .larger-x[Кочура Юрій Петрович]<br><br>
-.left[Наукові керiвники<br>
-.bold[Гордієнко Юрій Григорович], д-р. фiз.-мат. наук, проф. <br>
-.bold[Стiренко Сергiй Григорович], д-р. тех. наук, проф.] 
+.left[Науковий керiвник<br>
+.bold[Гордієнко Юрій Григорович], д-р. фiз.-мат. наук, проф.]  <br>
+
 
  2026
 
 ???
 Скорочення: https://bati.nubip.edu.ua/index.php/ua/activityfooter/vimogi-do-skorochennya-nazv-naukovikh-stupeniv.html
+
+<!-- .left[Наукові керiвники<br>
+.bold[Гордієнко Юрій Григорович], д-р. фiз.-мат. наук, проф. <br>
+.bold[Стiренко Сергiй Григорович], д-р. тех. наук, проф.] --> 
 
 ---
 
@@ -73,7 +77,13 @@ count: false
 
 class: black-slide, middle
 
-.larger-x.success[Основнi результати за темою дисертацiї були висвiтленi в 13 наукових працях, якi розкривають основний змiст дисертацiї, зокрема у 4 наукових статтях у закордонних фахових виданнях третього квартиля (Q3) та у 9 матерiалах науково-технiчних конференцiй. Усi цi роботи опублiкованi у закордонних виданнях, якi проiндексованi у базi даних Scopus.]
+.larger-xm.success[Основні результати за темою дисертації були висвітлені в .bold[22] наукових працях, які розкривають основний зміст дисертації, зокрема у 16 наукових статтях, з яких:
+- 1 стаття у закордонному фаховому виданні першого квартиля (Q1), 
+- 8 статей у закордонних фахових виданнях третього квартиля (Q3), 
+- 6 статей у закордонних фахових виданнях четвертого квартиля (Q4)
+-  1 стаття у фаховому виданні України категорії Б, 
+
+а також у 6 матеріалах науково-технічних конференцій. Із 22 наукових праць 21 опубліковано у закордонних виданнях, які проіндексовані у базі даних Scopus.]
 
 ---
 
@@ -84,30 +94,42 @@ class: black-slide, middle,
 .smaller-x[
 .pub-list[
 .pub-item[
-.pub-year[2026]
+.pub-year[1.]
+.pub-content[
+.pub-title[Generative Data Augmentation by Dataset Distillation.]
+.pub-authors[Gordienko, Y., Nowakowski, G., Kochura, Y., Taran, V., & Stirenko, S.]
+.pub-venue[Communications in Computer and Information Science, 2026, vol. 2696, pp. 105–118.]
+.pub-meta[.pub-scopus[Scopus] .pub-q4[Q4]]
+]
+]
+
+.pub-item[
+.pub-year[2.]
 .pub-content[
 .pub-title[Multi-Backbone Ensembling for Performance Improvement in Federated Learning Setup.]
 .pub-authors[Gordienko, Y., Gordienko, N., El Mhamdi, E. M., Kochura, Y., & Stirenko, S.]
-.pub-venue[22nd International Conference on Distributed Computing and Artificial Intelligence (France).]
-.pub-meta[.pub-scopus[Scopus] ]
+.pub-venue[Lecture Notes in Networks and Systems, 2026, vol. 1598, pp. 129–138.]
+.pub-meta[.pub-scopus[Scopus] .pub-q4[Q4]]
 ]
 ]
+
 .pub-item[
-.pub-year[2020]
+.pub-year[3.]
 .pub-content[
-.pub-title[Scaling Analysis of Specialized Tensor Processing Architectures for Deep Learning Models.]
-.pub-authors[Gordienko, Y., Kochura, Y., Taran, V., Gordienko, N., Rokovyi, A., Alienin, O., & Stirenko, S.]
-.pub-venue[Studies in Computational Intelligence, vol. 866, pp. 65–99.]
-.pub-meta[.pub-scopus[Scopus]]
+.pub-title[UAeroNet: Domain-Specific Dataset for Automation of Unmanned Aerial Vehicles.]
+.pub-authors[Kochura, Y., Trochun, Y., Taran, V., Gordienko, Y., Rokovyi, O., & Stirenko, S.]
+.pub-venue[Information, Computing and Intelligent Systems, no. 7, pp. 83–95, 2025.]
+.pub-meta[.pub-scopus[Фахове видання України категорії Б]]
 ]
 ]
+
 .pub-item[
-.pub-year[2020]
+.pub-year[4.]
 .pub-content[
-.pub-title[Batch Size Influence on Performance of Graphic and Tensor Processing Units During Training and Inference Phases.]
-.pub-authors[Kochura, Y., Gordienko, Y., Taran, V., Gordienko, N., Rokovyi, A., Alienin, O., & Stirenko, S.]
-.pub-venue[Advances in Intelligent Systems and Computing, vol. 938, pp. 658–668.]
-.pub-meta[.pub-scopus[Scopus]]
+.pub-title[Multimodal Metadata Augmentation for Federated Learning in Medical Applications.]
+.pub-authors[Gordienko, Y., Shulha, M., Kochura, Y., Rokovyi, O., Taran, V., Alienin, O., & Stirenko, S.]
+.pub-venue[Lecture Notes in Networks and Systems, 2024, vol. 1002, pp. 537–547.]
+.pub-meta[.pub-scopus[Scopus] .pub-q4[Q4]]
 ]
 ]
 
@@ -123,39 +145,233 @@ class: black-slide, middle,
 .smaller-x[
 .pub-list[
 .pub-item[
-.pub-year[2019]
+.pub-year[5.]
 .pub-content[
-.pub-title[Deep Learning with Lung Segmentation and Bone Shadow Exclusion Techniques for Chest X-Ray Analysis.]
-.pub-authors[Gordienko, Y., Gang, P., Hui, J., Zeng, W., Kochura, Y., Alienin, O., Rokovyi, O., & Stirenko, S.]
-.pub-venue[Advances in Intelligent Systems and Computing, vol. 754, pp. 638–647.]
+.pub-title[Ensemble Knowledge Distillation for Edge Intelligence in Medical Applications.]
+.pub-authors[Gordienko, Y., Shulha, M., Kochura, Y., Rokovyi, O., Alienin, O., Taran, V., & Stirenko, S.]
+.pub-venue[Studies in Computational Intelligence, 2023, vol. 1100, pp. 135–168.]
+.pub-meta[.pub-scopus[Scopus] .pub-q4[Q4]]
+]
+]
+
+.pub-item[
+.pub-year[6.]
+.pub-content[
+.pub-title[Fuzzy Metadata Augmentation for Multimodal Data Classification.]
+.pub-authors[Gordienko, Y., Shulha, M., Kochura, Y., Rokovyi, O., Alienin, O., & Stirenko, S.]
+.pub-venue[Lecture Notes on Data Engineering and Communications Technologies, 2023, vol. 166, pp. 157–172.]
 .pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
 ]
 ]
+
 .pub-item[
-.pub-year[2019]
+.pub-year[7.]
 .pub-content[
-.pub-title[Effect of data augmentation and lung mask segmentation for automated chest radiograph interpretation of some lung diseases.]
-.pub-authors[Gang P., Zeng W., Gordienko Y., Kochura Y., Alienin O., Rokovyi O., Stirenko S.]
-.pub-venue[Communications in Computer and Information Science, vol. 1142 CCIS, pp. 333–340.]
+.pub-title[Edge Intelligence for Medical Applications Under Field Conditions.]
+.pub-authors[Taran, V., Gordienko, Y., Rokovyi, O., Alienin, O., Kochura, Y., & Stirenko, S.]
+.pub-venue[Lecture Notes on Data Engineering and Communications Technologies, 2022, vol. 135, pp. 71–80.]
 .pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
 ]
 ]
+
 .pub-item[
-.pub-year[2018]
+.pub-year[8.]
+.pub-content[
+.pub-title[Artificial Intelligence Platform for Distant Computer-Aided Detection (CADe) and Computer-Aided Diagnosis (CADx) of Human Diseases.]
+.pub-authors[Alienin, O., Rokovyi, O., Gordienko, Y., Kochura, Y., Taran, V., & Stirenko, S.]
+.pub-venue[Lecture Notes on Data Engineering and Communications Technologies, 2022, vol. 135, pp. 91–100.]
+.pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
+]
+]
+]
+]
+
+---
+
+class: black-slide, middle,
+
+# Публікації
+
+.smaller-xm[
+.pub-list[
+.pub-item[
+.pub-year[9.]
+.pub-content[
+.pub-title[Deep Learning for Melanoma Detection with Testing Time Data Augmentation.]
+.pub-authors[Doms, V., Gordienko, Y., Kochura, Y., Rokovyi, O., Alienin, O., & Stirenko, S.]
+.pub-venue[Lecture Notes on Data Engineering and Communications Technologies, 2021, vol. 82, pp. 131–140.]
+.pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
+]
+]
+
+.pub-item[
+.pub-year[10.]
+.pub-content[
+.pub-title["Last Mile" Optimization of Edge Computing Ecosystem with Deep Learning Models and Specialized Tensor Processing Architectures.]
+.pub-authors[Gordienko, Y., Kochura, Y., Taran, V., Gordienko, N., Rokovyi, O., Alienin, O., & Stirenko, S.]
+.pub-venue[Advances in Computers, 2021, vol. 122, pp. 303–341.]
+.pub-meta[.pub-scopus[Scopus] .pub-q1[Q1]]
+]
+]
+
+.pub-item[
+.pub-year[11.]
+.pub-content[
+.pub-title[Scaling Analysis of Specialized Tensor Processing Architectures for Deep Learning Models.]
+.pub-authors[Gordienko, Y., Kochura, Y., Taran, V., Gordienko, N., Rokovyi, A., Alienin, O., & Stirenko, S.]
+.pub-venue[Studies in Computational Intelligence, 2020, vol. 866, pp. 65–99.]
+.pub-meta[.pub-scopus[Scopus] .pub-q4[Q4]]
+]
+]
+
+.pub-item[
+.pub-year[12.]
+.pub-content[
+.pub-title[Effect of Data Augmentation and Lung Mask Segmentation for Automated Chest Radiograph Interpretation of Some Lung Diseases.]
+.pub-authors[Gang, P., Zeng, W., Gordienko, Y., Kochura, Y., Alienin, O., Rokovyi, O., & Stirenko, S.]
+.pub-venue[Communications in Computer and Information Science, 2019, vol. 1142, pp. 333–340.]
+.pub-meta[.pub-scopus[Scopus] .pub-q4[Q4]]
+]
+]
+]
+]
+
+---
+
+class: black-slide, middle,
+
+# Публікації
+
+.smaller-xm[
+.pub-list[
+.pub-item[
+.pub-year[13.]
+.pub-content[
+.pub-title[Adaptive Iterative Pruning for Accelerating Deep Neural Networks.]
+.pub-authors[Gordienko, Y., Kochura, Y., Taran, V., Gordienko, N., Bugaiov, A., & Stirenko, S.]
+.pub-venue[11th International Scientific and Practical Conference on Electronics and Information Technologies (ELIT 2019), 2019, pp. 173–178.]
+.pub-meta[.pub-scopus[Scopus]]
+]
+]
+
+.pub-item[
+.pub-year[14.]
+.pub-content[
+.pub-title[Batch Size Influence on Performance of Graphic and Tensor Processing Units During Training and Inference Phases.]
+.pub-authors[Kochura, Y., Gordienko, Y., Taran, V., Gordienko, N., Rokovyi, A., Alienin, O., & Stirenko, S.]
+.pub-venue[Advances in Intelligent Systems and Computing, 2019, vol. 938, pp. 658–668.]
+.pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
+]
+]
+
+.pub-item[
+.pub-year[15.]
+.pub-content[
+.pub-title[Performance Evaluation of Deep Learning Networks for Semantic Segmentation of Traffic Stereo-Pair Images.]
+.pub-authors[Taran, V., Gordienko, Y., Gordienko, N., Rokovyi, A., Kochura, Y., Alienin, O., & Stirenko, S.]
+.pub-venue[ACM International Conference Proceeding Series, 2018, pp. 73–80.]
+.pub-meta[.pub-scopus[Scopus]]
+]
+]
+
+.pub-item[
+.pub-year[16.]
 .pub-content[
 .pub-title[Chest X-Ray Analysis of Tuberculosis by Deep Learning with Segmentation and Augmentation.]
 .pub-authors[Stirenko, S., Kochura, Y., Alienin, O., Rokovyi, O., Gordienko, Y., Gang, P., & Zeng, W.]
-.pub-venue[IEEE 38th International Conference on Electronics and Nanotechnology (ELNANO 2018), pp. 422–428.]
+.pub-venue[38th International Conference on Electronics and Nanotechnology (ELNANO 2018), 2018, pp. 422–428.]
 .pub-meta[.pub-scopus[Scopus]]
 ]
 ]
 ]
 ]
 
-.footnote[Повний перелік публікацій: [Yuriy Kochura - Scopus](https://docs.google.com/spreadsheets/d/1klLBoxAHcaCt_xi6hSAnBVTWXZqS9-j743C29vdzrUs/edit?usp=sharing)]
+---
+
+class: black-slide, middle,
+
+# Публікації
+
+.smaller-x[
+.pub-list[
+.pub-item[
+.pub-year[17.]
+.pub-content[
+.pub-title[Dimensionality Reduction in Deep Learning for Chest X-Ray Analysis of Lung Cancer.]
+.pub-authors[Gang, P., Zhen, W., Zeng, W., Gordienko, Y., Kochura, Y., Alienin, O., Rokovyi, O., & Stirenko, S.]
+.pub-venue[10th International Conference on Advanced Computational Intelligence (ICACI 2018), 2018, pp. 878–883.]
+.pub-meta[.pub-scopus[Scopus]]
+]
+]
+
+.pub-item[
+.pub-year[18.]
+.pub-content[
+.pub-title[Deep Learning with Lung Segmentation and Bone Shadow Exclusion Techniques for Chest X-Ray Analysis of Lung Cancer.]
+.pub-authors[Gordienko, Y., Gang, P., Hui, J., Zeng, W., Kochura, Y., Alienin, O., Rokovyi, O., & Stirenko, S.]
+.pub-venue[Advances in Intelligent Systems and Computing, 2018, vol. 754, pp. 638–647.]
+.pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
+]
+]
+
+.pub-item[
+.pub-year[19.]
+.pub-content[
+.pub-title[Performance Analysis of Open Source Machine Learning Frameworks for Various Parameters in Single-Threaded and Multi-Threaded Modes.]
+.pub-authors[Kochura, Y., Stirenko, S., Alienin, O., Novotarskiy, M., & Gordienko, Y.]
+.pub-venue[Advances in Intelligent Systems and Computing, 2018, vol. 689, pp. 243–256.]
+.pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
+]
+]
+]
+]
 
 ---
 
+class: black-slide, middle,
+
+# Публікації
+
+.smaller-x[
+.pub-list[
+.pub-item[
+.pub-year[20.]
+.pub-content[
+.pub-title[User-Driven Intelligent Interface on the Basis of Multimodal Augmented Reality and Brain-Computer Interaction for People with Functional Disabilities.]
+.pub-authors[Gang, P., Hui, J., Stirenko, S., Gordienko, Y., Shemsedinov, T., Alienin, O., Kochura, Y., Gordienko, N., Rojbi, A., Lopez Benito, J., & Artetxe Gonzalez, E.]
+.pub-venue[Advances in Intelligent Systems and Computing, 2018, vol. 886, pp. 612–631.]
+.pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
+]
+]
+
+
+.pub-item[
+.pub-year[21.]
+.pub-content[
+.pub-title[Comparative Performance Analysis of Neural Networks Architectures on H2O Platform for Various Activation Functions.]
+.pub-authors[Kochura, Y., Stirenko, S., & Gordienko, Y.]
+.pub-venue[International Young Scientists Forum on Applied Physics and Engineering (YSF 2017), 2017, pp. 70–73.]
+.pub-meta[.pub-scopus[Scopus]]
+]
+]
+
+.pub-item[
+.pub-year[22.]
+.pub-content[
+.pub-title[Comparative Analysis of Open Source Frameworks for Machine Learning with Use Case in Single-Threaded and Multi-Threaded Modes.]
+.pub-authors[Kochura, Y., Stirenko, S., Alienin, O., Novotarskiy, M., & Gordienko, Y.]
+.pub-venue[12th International Scientific and Technical Conference on Computer Sciences and Information Technologies (CSIT 2017), 2017, vol. 1, pp. 373–376.]
+.pub-meta[.pub-scopus[Scopus]]
+]
+]
+]
+]
+
+---
+
+
+
+exclude: true
 class: black-slide, middle
 
 .qr-layout[
