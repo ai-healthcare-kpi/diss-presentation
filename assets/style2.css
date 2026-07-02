@@ -677,11 +677,50 @@ td {
   color: #84b0c7;
 }
 
+/* кавартилі ---------------------------------------------------------------------------- */
 .pub-meta {
   display: flex;
   gap: 0.4em;
   margin-top: 3px;
 }
+
+/* DOI / ISSN ---------------------------------------------------------------------------- */
+.pub-doi,
+.pub-issn {
+  font-family: 'Courier New', monospace;
+  font-size: 0.78em;
+  color: #C9DFF0;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  background: rgba(34, 197, 94, 0.15);
+  border: 1px solid rgba(34, 197, 94, 0.4);
+  padding: 0px 6px;
+  border-radius: 4px;
+}
+.pub-doi::before {
+  content: "DOI ";
+  color: #C9DFF0;
+  font-weight: 600;
+}
+.pub-issn::before {
+  content: "ISSN ";
+  color: #C9DFF0;
+  font-weight: 600;
+}
+.pub-doi a,
+.pub-issn a {
+  color: #C9DFF0;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(122, 146, 163, 0.5);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.pub-doi a:hover,
+.pub-issn a:hover {
+  color: #4e9af1;
+  border-bottom-color: #4e9af1;
+}
+
 
 .pub-scopus {
   display: inline-block;

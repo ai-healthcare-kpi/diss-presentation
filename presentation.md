@@ -99,7 +99,7 @@ class: black-slide, middle,
 .pub-title[Generative Data Augmentation by Dataset Distillation.]
 .pub-authors[Gordienko, Y., Nowakowski, G., Kochura, Y., Taran, V., & Stirenko, S.]
 .pub-venue[Communications in Computer and Information Science, 2026, vol. 2696, pp. 105–118.]
-.pub-meta[.pub-scopus[Scopus] .pub-q4[Q4]]
+.pub-meta[.pub-doi[[10.1007/978-3-032-17216-7_9](https://doi.org/10.1007/978-3-032-17216-7_9)] .pub-issn[1865-0929] .pub-scopus[Scopus] .pub-q4[Q4]]
 ]
 ]
 
@@ -109,7 +109,7 @@ class: black-slide, middle,
 .pub-title[Multi-Backbone Ensembling for Performance Improvement in Federated Learning Setup.]
 .pub-authors[Gordienko, Y., Gordienko, N., El Mhamdi, E. M., Kochura, Y., & Stirenko, S.]
 .pub-venue[Lecture Notes in Networks and Systems, 2026, vol. 1598, pp. 129–138.]
-.pub-meta[.pub-scopus[Scopus] .pub-q4[Q4]]
+.pub-meta[.pub-doi[[10.1007/978-3-032-04160-9_12](https://doi.org/10.1007/978-3-032-04160-9_12)] .pub-issn[2367-3370] .pub-scopus[Scopus] .pub-q4[Q4]]
 ]
 ]
 
@@ -119,7 +119,7 @@ class: black-slide, middle,
 .pub-title[UAeroNet: Domain-Specific Dataset for Automation of Unmanned Aerial Vehicles.]
 .pub-authors[Kochura, Y., Trochun, Y., Taran, V., Gordienko, Y., Rokovyi, O., & Stirenko, S.]
 .pub-venue[Information, Computing and Intelligent Systems, no. 7, pp. 83–95, 2025.]
-.pub-meta[.pub-scopus[Фахове видання України категорії Б]]
+.pub-meta[.pub-doi[[10.20535/2786-8729.7.2025.341779](https://doi.org/10.20535/2786-8729.7.2025.341779)] .pub-issn[2786-8729] .pub-scopus[Фахове видання України] .pub-q4[Б]]
 ]
 ]
 
@@ -129,7 +129,7 @@ class: black-slide, middle,
 .pub-title[Multimodal Metadata Augmentation for Federated Learning in Medical Applications.]
 .pub-authors[Gordienko, Y., Shulha, M., Kochura, Y., Rokovyi, O., Taran, V., Alienin, O., & Stirenko, S.]
 .pub-venue[Lecture Notes in Networks and Systems, 2024, vol. 1002, pp. 537–547.]
-.pub-meta[.pub-scopus[Scopus] .pub-q4[Q4]]
+.pub-meta[.pub-doi[[10.1007/978-981-97-3299-9_43](https://doi.org/10.1007/978-981-97-3299-9_43)] .pub-issn[2367-3370] .pub-scopus[Scopus] .pub-q4[Q4]]
 ]
 ]
 
@@ -150,7 +150,7 @@ class: black-slide, middle,
 .pub-title[Ensemble Knowledge Distillation for Edge Intelligence in Medical Applications.]
 .pub-authors[Gordienko, Y., Shulha, M., Kochura, Y., Rokovyi, O., Alienin, O., Taran, V., & Stirenko, S.]
 .pub-venue[Studies in Computational Intelligence, 2023, vol. 1100, pp. 135–168.]
-.pub-meta[.pub-scopus[Scopus] .pub-q4[Q4]]
+.pub-meta[.pub-doi[[10.1007/978-3-031-32095-8_5](https://doi.org/10.1007/978-3-031-32095-8_5)] .pub-issn[1860-949X] .pub-scopus[Scopus] .pub-q4[Q4]]
 ]
 ]
 
@@ -160,7 +160,7 @@ class: black-slide, middle,
 .pub-title[Fuzzy Metadata Augmentation for Multimodal Data Classification.]
 .pub-authors[Gordienko, Y., Shulha, M., Kochura, Y., Rokovyi, O., Alienin, O., & Stirenko, S.]
 .pub-venue[Lecture Notes on Data Engineering and Communications Technologies, 2023, vol. 166, pp. 157–172.]
-.pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
+.pub-meta[.pub-doi[[10.1007/978-981-99-0835-6_11](https://doi.org/10.1007/978-981-99-0835-6_11)] .pub-issn[2367-4512] .pub-scopus[Scopus] .pub-q3[Q3]]
 ]
 ]
 
@@ -170,7 +170,7 @@ class: black-slide, middle,
 .pub-title[Edge Intelligence for Medical Applications Under Field Conditions.]
 .pub-authors[Taran, V., Gordienko, Y., Rokovyi, O., Alienin, O., Kochura, Y., & Stirenko, S.]
 .pub-venue[Lecture Notes on Data Engineering and Communications Technologies, 2022, vol. 135, pp. 71–80.]
-.pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
+.pub-meta[.pub-doi[[10.1007/978-3-031-04809-8_6](https://doi.org/10.1007/978-3-031-04809-8_6)] .pub-issn[2367-4512] .pub-scopus[Scopus] .pub-q3[Q3]]
 ]
 ]
 
@@ -180,7 +180,7 @@ class: black-slide, middle,
 .pub-title[Artificial Intelligence Platform for Distant Computer-Aided Detection (CADe) and Computer-Aided Diagnosis (CADx) of Human Diseases.]
 .pub-authors[Alienin, O., Rokovyi, O., Gordienko, Y., Kochura, Y., Taran, V., & Stirenko, S.]
 .pub-venue[Lecture Notes on Data Engineering and Communications Technologies, 2022, vol. 135, pp. 91–100.]
-.pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
+.pub-meta[.pub-doi[[10.1007/978-3-031-04809-8_8](https://doi.org/10.1007/978-3-031-04809-8_8)] .pub-issn[2367-4512] .pub-scopus[Scopus] .pub-q3[Q3]]
 ]
 ]
 ]
@@ -200,7 +200,7 @@ class: black-slide, middle,
 .pub-title[Deep Learning for Melanoma Detection with Testing Time Data Augmentation.]
 .pub-authors[Doms, V., Gordienko, Y., Kochura, Y., Rokovyi, O., Alienin, O., & Stirenko, S.]
 .pub-venue[Lecture Notes on Data Engineering and Communications Technologies, 2021, vol. 82, pp. 131–140.]
-.pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
+.pub-meta[.pub-doi[[10.1007/978-3-030-80475-6_13](https://doi.org/10.1007/978-3-030-80475-6_13)] .pub-issn[2367-4512] .pub-scopus[Scopus] .pub-q3[Q3]]
 ]
 ]
 
@@ -210,7 +210,7 @@ class: black-slide, middle,
 .pub-title["Last Mile" Optimization of Edge Computing Ecosystem with Deep Learning Models and Specialized Tensor Processing Architectures.]
 .pub-authors[Gordienko, Y., Kochura, Y., Taran, V., Gordienko, N., Rokovyi, O., Alienin, O., & Stirenko, S.]
 .pub-venue[Advances in Computers, 2021, vol. 122, pp. 303–341.]
-.pub-meta[.pub-scopus[Scopus] .pub-q1[Q1]]
+.pub-meta[.pub-doi[[10.1016/bs.adcom.2020.10.003](https://doi.org/10.1016/bs.adcom.2020.10.003)] .pub-issn[0065-2458] .pub-scopus[Scopus] .pub-q1[Q1]]
 ]
 ]
 
@@ -220,7 +220,7 @@ class: black-slide, middle,
 .pub-title[Scaling Analysis of Specialized Tensor Processing Architectures for Deep Learning Models.]
 .pub-authors[Gordienko, Y., Kochura, Y., Taran, V., Gordienko, N., Rokovyi, A., Alienin, O., & Stirenko, S.]
 .pub-venue[Studies in Computational Intelligence, 2020, vol. 866, pp. 65–99.]
-.pub-meta[.pub-scopus[Scopus] .pub-q4[Q4]]
+.pub-meta[.pub-doi[[10.1007/978-3-030-31756-0_3](https://doi.org/10.1007/978-3-030-31756-0_3)] .pub-issn[1860-949X] .pub-scopus[Scopus] .pub-q4[Q4]]
 ]
 ]
 
@@ -230,7 +230,7 @@ class: black-slide, middle,
 .pub-title[Effect of Data Augmentation and Lung Mask Segmentation for Automated Chest Radiograph Interpretation of Some Lung Diseases.]
 .pub-authors[Gang, P., Zeng, W., Gordienko, Y., Kochura, Y., Alienin, O., Rokovyi, O., & Stirenko, S.]
 .pub-venue[Communications in Computer and Information Science, 2019, vol. 1142, pp. 333–340.]
-.pub-meta[.pub-scopus[Scopus] .pub-q4[Q4]]
+.pub-meta[.pub-doi[[10.1007/978-3-030-36808-1_36](https://doi.org/10.1007/978-3-030-36808-1_36)] .pub-issn[1865-0929] .pub-scopus[Scopus] .pub-q4[Q4]]
 ]
 ]
 ]
@@ -250,7 +250,7 @@ class: black-slide, middle,
 .pub-title[Adaptive Iterative Pruning for Accelerating Deep Neural Networks.]
 .pub-authors[Gordienko, Y., Kochura, Y., Taran, V., Gordienko, N., Bugaiov, A., & Stirenko, S.]
 .pub-venue[11th International Scientific and Practical Conference on Electronics and Information Technologies (ELIT 2019), 2019, pp. 173–178.]
-.pub-meta[.pub-scopus[Scopus]]
+.pub-meta[.pub-doi[[10.1109/ELIT.2019.8892346](https://doi.org/10.1109/ELIT.2019.8892346)] .pub-scopus[Scopus]]
 ]
 ]
 
@@ -260,7 +260,7 @@ class: black-slide, middle,
 .pub-title[Batch Size Influence on Performance of Graphic and Tensor Processing Units During Training and Inference Phases.]
 .pub-authors[Kochura, Y., Gordienko, Y., Taran, V., Gordienko, N., Rokovyi, A., Alienin, O., & Stirenko, S.]
 .pub-venue[Advances in Intelligent Systems and Computing, 2019, vol. 938, pp. 658–668.]
-.pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
+.pub-meta[.pub-doi[[10.1007/978-3-030-16621-2_61](https://doi.org/10.1007/978-3-030-16621-2_61)] .pub-issn[2194-5357] .pub-scopus[Scopus] .pub-q3[Q3]]
 ]
 ]
 
@@ -270,7 +270,7 @@ class: black-slide, middle,
 .pub-title[Performance Evaluation of Deep Learning Networks for Semantic Segmentation of Traffic Stereo-Pair Images.]
 .pub-authors[Taran, V., Gordienko, Y., Gordienko, N., Rokovyi, A., Kochura, Y., Alienin, O., & Stirenko, S.]
 .pub-venue[ACM International Conference Proceeding Series, 2018, pp. 73–80.]
-.pub-meta[.pub-scopus[Scopus]]
+.pub-meta[.pub-doi[[10.1145/3274005.3274032](https://doi.org/10.1145/3274005.3274032)] .pub-scopus[Scopus]]
 ]
 ]
 
@@ -280,7 +280,7 @@ class: black-slide, middle,
 .pub-title[Chest X-Ray Analysis of Tuberculosis by Deep Learning with Segmentation and Augmentation.]
 .pub-authors[Stirenko, S., Kochura, Y., Alienin, O., Rokovyi, O., Gordienko, Y., Gang, P., & Zeng, W.]
 .pub-venue[38th International Conference on Electronics and Nanotechnology (ELNANO 2018), 2018, pp. 422–428.]
-.pub-meta[.pub-scopus[Scopus]]
+.pub-meta[.pub-doi[[10.1109/ELNANO.2018.8477564](https://doi.org/10.1109/ELNANO.2018.8477564)] .pub-scopus[Scopus]]
 ]
 ]
 ]
@@ -300,7 +300,7 @@ class: black-slide, middle,
 .pub-title[Dimensionality Reduction in Deep Learning for Chest X-Ray Analysis of Lung Cancer.]
 .pub-authors[Gang, P., Zhen, W., Zeng, W., Gordienko, Y., Kochura, Y., Alienin, O., Rokovyi, O., & Stirenko, S.]
 .pub-venue[10th International Conference on Advanced Computational Intelligence (ICACI 2018), 2018, pp. 878–883.]
-.pub-meta[.pub-scopus[Scopus]]
+.pub-meta[.pub-doi[[10.1109/ICACI.2018.8377579](https://doi.org/10.1109/ICACI.2018.8377579)] .pub-scopus[Scopus]]
 ]
 ]
 
@@ -310,7 +310,7 @@ class: black-slide, middle,
 .pub-title[Deep Learning with Lung Segmentation and Bone Shadow Exclusion Techniques for Chest X-Ray Analysis of Lung Cancer.]
 .pub-authors[Gordienko, Y., Gang, P., Hui, J., Zeng, W., Kochura, Y., Alienin, O., Rokovyi, O., & Stirenko, S.]
 .pub-venue[Advances in Intelligent Systems and Computing, 2018, vol. 754, pp. 638–647.]
-.pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
+.pub-meta[.pub-doi[[10.1007/978-3-319-91008-6_63](https://doi.org/10.1007/978-3-319-91008-6_63)] .pub-issn[2194-5357] .pub-scopus[Scopus] .pub-q3[Q3]]
 ]
 ]
 
@@ -320,7 +320,7 @@ class: black-slide, middle,
 .pub-title[Performance Analysis of Open Source Machine Learning Frameworks for Various Parameters in Single-Threaded and Multi-Threaded Modes.]
 .pub-authors[Kochura, Y., Stirenko, S., Alienin, O., Novotarskiy, M., & Gordienko, Y.]
 .pub-venue[Advances in Intelligent Systems and Computing, 2018, vol. 689, pp. 243–256.]
-.pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
+.pub-meta[.pub-doi[[10.1007/978-3-319-70581-1_17](https://doi.org/10.1007/978-3-319-70581-1_17)] .pub-issn[2194-5357] .pub-scopus[Scopus] .pub-q3[Q3]]
 ]
 ]
 ]
@@ -340,7 +340,7 @@ class: black-slide, middle,
 .pub-title[User-Driven Intelligent Interface on the Basis of Multimodal Augmented Reality and Brain-Computer Interaction for People with Functional Disabilities.]
 .pub-authors[Gang, P., Hui, J., Stirenko, S., Gordienko, Y., Shemsedinov, T., Alienin, O., Kochura, Y., Gordienko, N., Rojbi, A., Lopez Benito, J., & Artetxe Gonzalez, E.]
 .pub-venue[Advances in Intelligent Systems and Computing, 2018, vol. 886, pp. 612–631.]
-.pub-meta[.pub-scopus[Scopus] .pub-q3[Q3]]
+.pub-meta[.pub-doi[[10.1007/978-3-030-03402-3_43](https://doi.org/10.1007/978-3-030-03402-3_43)] .pub-issn[2194-5357] .pub-scopus[Scopus] .pub-q3[Q3]]
 ]
 ]
 
@@ -351,7 +351,7 @@ class: black-slide, middle,
 .pub-title[Comparative Performance Analysis of Neural Networks Architectures on H2O Platform for Various Activation Functions.]
 .pub-authors[Kochura, Y., Stirenko, S., & Gordienko, Y.]
 .pub-venue[International Young Scientists Forum on Applied Physics and Engineering (YSF 2017), 2017, pp. 70–73.]
-.pub-meta[.pub-scopus[Scopus]]
+.pub-meta[.pub-doi[[10.1109/YSF.2017.8126654](https://doi.org/10.1109/YSF.2017.8126654)] .pub-scopus[Scopus]]
 ]
 ]
 
@@ -361,7 +361,7 @@ class: black-slide, middle,
 .pub-title[Comparative Analysis of Open Source Frameworks for Machine Learning with Use Case in Single-Threaded and Multi-Threaded Modes.]
 .pub-authors[Kochura, Y., Stirenko, S., Alienin, O., Novotarskiy, M., & Gordienko, Y.]
 .pub-venue[12th International Scientific and Technical Conference on Computer Sciences and Information Technologies (CSIT 2017), 2017, vol. 1, pp. 373–376.]
-.pub-meta[.pub-scopus[Scopus]]
+.pub-meta[.pub-doi[[10.1109/STCCSIT.2017.8098808](https://doi.org/10.1109/STCCSIT.2017.8098808)] .pub-scopus[Scopus]]
 ]
 ]
 ]
