@@ -79,9 +79,10 @@ class: black-slide, middle
 
 .larger-xm.success[Основні результати за темою дисертації були висвітлені в .bold[22] наукових працях, які розкривають основний зміст дисертації, зокрема у 16 наукових статтях, з яких:
 - 1 стаття у закордонному фаховому виданні першого квартиля (Q1), 
-- 8 статей у закордонних фахових виданнях третього квартиля (Q3), 
+- 7 статей у закордонних фахових виданнях третього квартиля (Q3), 
 - 6 статей у закордонних фахових виданнях четвертого квартиля (Q4)
--  1 стаття у фаховому виданні України категорії Б, 
+- 1 стаття у фаховому виданні України категорії Б,
+- 1 стаття у періодичному закордонному фаховому виданні, яке індексується у Scopus, без квартильного рейтингу,
 
 а також у 6 матеріалах науково-технічних конференцій. Із 22 наукових праць 21 опубліковано у закордонних виданнях, які проіндексовані у базі даних Scopus.]
 
@@ -200,7 +201,7 @@ class: black-slide, middle,
 .pub-title[Deep Learning for Melanoma Detection with Testing Time Data Augmentation.]
 .pub-authors[Doms, V., Gordienko, Y., Kochura, Y., Rokovyi, O., Alienin, O., & Stirenko, S.]
 .pub-venue[Lecture Notes on Data Engineering and Communications Technologies, 2021, vol. 82, pp. 131–140.]
-.pub-meta[.pub-doi[[10.1007/978-3-030-80475-6_13](https://doi.org/10.1007/978-3-030-80475-6_13)] .pub-issn[2367-4512] .pub-scopus[Scopus] .pub-q3[Q3]]
+.pub-meta[.pub-doi[[10.1007/978-3-030-80475-6_13](https://doi.org/10.1007/978-3-030-80475-6_13)] .pub-issn[2367-4512] .pub-scopus[Scopus]]
 ]
 ]
 
@@ -230,7 +231,7 @@ class: black-slide, middle,
 .pub-title[Effect of Data Augmentation and Lung Mask Segmentation for Automated Chest Radiograph Interpretation of Some Lung Diseases.]
 .pub-authors[Gang, P., Zeng, W., Gordienko, Y., Kochura, Y., Alienin, O., Rokovyi, O., & Stirenko, S.]
 .pub-venue[Communications in Computer and Information Science, 2019, vol. 1142, pp. 333–340.]
-.pub-meta[.pub-doi[[10.1007/978-3-030-36808-1_36](https://doi.org/10.1007/978-3-030-36808-1_36)] .pub-issn[1865-0929] .pub-scopus[Scopus] .pub-q4[Q4]]
+.pub-meta[.pub-doi[[10.1007/978-3-030-36808-1_36](https://doi.org/10.1007/978-3-030-36808-1_36)] .pub-issn[1865-0929] .pub-scopus[Scopus] .pub-q3[Q3]]
 ]
 ]
 ]
@@ -260,7 +261,7 @@ class: black-slide, middle,
 .pub-title[Batch Size Influence on Performance of Graphic and Tensor Processing Units During Training and Inference Phases.]
 .pub-authors[Kochura, Y., Gordienko, Y., Taran, V., Gordienko, N., Rokovyi, A., Alienin, O., & Stirenko, S.]
 .pub-venue[Advances in Intelligent Systems and Computing, 2019, vol. 938, pp. 658–668.]
-.pub-meta[.pub-doi[[10.1007/978-3-030-16621-2_61](https://doi.org/10.1007/978-3-030-16621-2_61)] .pub-issn[2194-5357] .pub-scopus[Scopus] .pub-q3[Q3]]
+.pub-meta[.pub-doi[[10.1007/978-3-030-16621-2_61](https://doi.org/10.1007/978-3-030-16621-2_61)] .pub-issn[2194-5357] .pub-scopus[Scopus] .pub-q4[Q4]]
 ]
 ]
 
@@ -369,6 +370,25 @@ class: black-slide, middle,
 
 ---
 
+class: black-slide, middle
+
+.qr-layout[
+.qr-text[
+
+# Довідка з бібліотеки
+
+Відскануйте QR-код або перейдіть за посиланням, щоб переглянути скан-копію довідки.
+
+.qr-url[🔗 https://drive.google.com/file/d/1RliH34ONmV7fRI9jfhD7KeZDHnwKQ2s5/view?usp=sharing]
+]
+
+.qr-box[
+<div id="qr-render"></div>
+.qr-caption[Сканувати камерою]
+]
+]
+
+---
 
 
 exclude: true
