@@ -260,7 +260,7 @@ td {
 }
 
 .inactive-b {
-    color: #272426cc;
+    color: #3D3D3D;
 }
 
 .exercise {
@@ -543,16 +543,51 @@ td {
 
 /* Specials ----------------------------------------------------------------- */
 
-.title-slide:after{
+/*.title-slide:before {
     content: '';
     background: url("../assets/logo.png") no-repeat;
     background-size: 70% 70%;
-    width: 170px;
-    height: 170px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0.5em;
+    right: 1.5em;
+    display: inline-block;
+}*/
+
+.title-slide:after{
+    content: '';
+    background: url("../assets/КПІ_Малий герб_білий.png") no-repeat;
+    background-size: 60% 60%;
+    width: 80px;
+    height: 110px;
+    position: absolute;
+    top: 0.5em;
+    left: 2em;
+    display: inline-block;
+}
+
+.title-slide:mid{
+    content: '';
+    background: url("../assets/ua.gif") no-repeat;
+    background-size: 70% 70%;
+    width: 235px;
+    height: 129px;
     position: absolute;
     top: 1.5em;
-    left: 5em;
+    center: 5em;
     display: inline-block;
+}
+
+.title-slide .center-logo {
+    background: url("../assets/ua.gif") no-repeat center;
+    background-size: 50% 50%;
+    width: 235px;
+    height: 129px;
+    position: absolute;
+    top: 1.0em;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .title-slide, .section {
