@@ -259,8 +259,13 @@ td {
     color: lightgray;
 }
 
-.inactive-b {
+/*.inactive-b {
     color: #3D3D3D;
+}*/
+.inactive-b,
+.inactive-b .katex,
+.inactive-b .katex * {
+    color: #3D3D3D !important;
 }
 
 .exercise {
