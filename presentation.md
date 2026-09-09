@@ -1634,6 +1634,11 @@ count: false
 [.center.width-100[![](figures/report.png)]]()
 
 ---
+## Відомості про голову та членів разової СВР
+
+.center[<iframe src="rada.html" width="800" height="700" style="border:none;"></iframe>]
+
+---
 
 class:  middle, center
 count: false
