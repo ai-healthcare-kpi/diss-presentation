@@ -66,7 +66,8 @@ background-size: cover
   8. Переваги та недолiки iснуючих методiв <br>
   9. Розроблені та вдосконалені методи глибинного навчання <br>
   10. Аналіз і обговорення отриманих результатів <br>
-  11. Висновки <br>  
+  11. Висновки <br>
+  12. Звіт подібності<br>    
 </p>]
 
 ---
@@ -377,7 +378,6 @@ class: black-slide, middle,
 
 ---
 
-exclude: true
 class: black-slide, middle
 
 .qr-layout[
@@ -722,6 +722,19 @@ count: false
 
 ---
 
+exclude: true
+# Апробація результатів дисертації
+.smaller-x[
+1. .bold[12th International Scientific and Technical Conference on Computer Sciences and Information Technologies (CSIT)], 05–08 вересня 2017, Львів, Україна.
+1. .bold[IEEE Young Scientists Forum on Applied Physics and Engineering (YSF)], 17–20 жовтня 2017, Львів, Україна.
+1. .bold[The First International Conference on Computer Science, Engineering and Education Applications (ICCSEEA2018)], 18–20 січня 2018, Київ, Україна.
+1. .bold[IEEE 38th International Conference on Electronics and Nanotechnology (ELNANO)], 22–24 квітня 2018, Київ, Україна.
+1. .bold[19th International Conference on Computer Systems and Technologies (CompSysTech'18)], 10–14 вересня 2018, Русе, Болгарія.
+1. .bold[The Second International Conference on Computer Science, Engineering and Education Applications (ICCSEEA2019)], 26–27 січня 2019, Київ, Україна.
+1. .bold[XIth International Scientific and Practical Conference on Electronics and Information Technologies (ELIT-2019)], 16–18 вересня 2019, Львів, Україна.
+1. .bold[22nd International Conference on Distributed Computing and Artificial Intelligence], 25–27 червня 2025, Лілльський університет, Франція.
+]
+---
 
 # Апробація результатів дисертації
 
@@ -755,7 +768,7 @@ count: false
 
 ---
 
-exclude: true
+
 class:  middle
 
 .width-100[![](./figures/pic/lung3.png)]
@@ -784,7 +797,7 @@ class: black-slide, middle,
 
 ---
 
-exclude: true
+
 class: black-slide, middle
 .center[<iframe src="cancer_stats_slide.html" width="600" height="600" style="border:none;"></iframe>]
 
@@ -795,7 +808,6 @@ class: black-slide, middle
 
 ---
 
-exclude: true
 class: black-slide, middle, 
 
 ## Вiзуальне сприйняття інформації 
@@ -823,7 +835,6 @@ background-size: contain
 # Роздiльна згортка по глибинi
 ---
 
-exclude: true
 background-image: url("./figures/pic/Batch-Size.png")
 background-size: contain
 # Вплив розміру пакета даних
@@ -835,7 +846,6 @@ Tesla K80) та TPU (Google Cloud TPUv2) пiд час етапiв навчанн
 
 ---
 
-exclude: true
 class:  middle
 # Прискорення обчислень на GPU K80 vs TPUv2
 
@@ -980,7 +990,6 @@ class: middle,
 
 ---
 
-exclude: true
 class: middle
 .smaller-xm[
 .bold[Етап 1. Побудова матриці подібності у вихідному просторі ознак.]
@@ -997,7 +1006,7 @@ class: middle
 
 class: middle
 
-## Метод виключення викидів серед розподілу сегментованих масок на основі t-SNE
+## Метод виключення викидів серед розподілу сегментованих масок на основі зменшення розмірності методом t-SNE
 
 <div class="algorithm">
 <div class="algo-io">
@@ -1090,8 +1099,8 @@ background-size: contain
 
 ---
 
-exclude: true
 class: middle
+
 ## Метод генеративної аугментації даних на основі дистиляції навчальних траєкторій
 
 .smaller-xm[
@@ -1141,7 +1150,7 @@ class: middle
 ]
 ---
 
-## Метод GDADD
+## Псевдокод методу GDADD
 .smaller-x[
 <div class="algorithm">
 <div class="algo-io">
@@ -1273,7 +1282,7 @@ class: middle
 
 ]]
 
-.center.caption-fig[Сегментована маска легень з датасету JSRT а), маска кісток б) і результуюча маска легень без кісток в)]
+.center.caption-fig[Деякi приклади найбiльш подiбних, несхожих та усереднених масок легень]
 
 ---
 
@@ -1324,7 +1333,6 @@ class: middle
 
 ---
 
-exclude: true
 class: middle 
 
 .width-100[![](./figures/pic/sh-time.png)]
@@ -1332,7 +1340,6 @@ class: middle
 
 ---
 
-exclude: true
 class: middle 
 
 .width-100[![](./figures/pic/sh-speedup.png)]
@@ -1723,18 +1730,16 @@ class:  middle,
 
 ---
 
-exclude: true
 class: blue-slide, middle, center
 count: false
 
 .larger-xx[Звіт подібності]
 
 ---
-exclude: true
+
 [.center.width-100[![](figures/report.png)]]()
 
 ---
-exclude: true
 ## Відомості про голову та членів разової СВР
 
 .center[<iframe src="rada.html" width="800" height="700" style="border:none;"></iframe>]
