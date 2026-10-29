@@ -1425,7 +1425,7 @@ class: middle, center
 class: middle, center 
 
 .width-100[![](./figures/pic/fl-batch.png)]
-.center.caption-fig[Динамiка змiни валiдацiйних втрат а) та точностi б) LCNet050 ($N\_{MB} = 1$) для рiзних розмiрiв пакету $N_b \in$ {32, 512, 8192}]
+.center.caption-fig[Динамiка змiни валiдацiйних втрат а) та точностi б) LCNet050 ($N\_{MB} = 1$) для рiзних розмiрiв пакету $N\_b \in \lbrace 32, 512, 8192\rbrace$ ]
 
 ---
 
@@ -1440,7 +1440,7 @@ class: middle, center
 
 .width-100[![](./figures/pic/fl-nbn.png)]
 .center.caption-fig[Типовi кривi валiдацiйних втрат а) та валiдацiйної точностi б) для архiтектури LCNet050 з рiзною кiлькiстю опорних моделей
-$N\_{MB} \in \{1, 2, 4, 8\}$  для розмiру пакету $N\_b = 32$]
+$N\_{MB} \in \\{1, 2, 4, 8\\}$  для розмiру пакету $N\_b = 32$]
 
 ---
 
@@ -1448,7 +1448,7 @@ class: middle, center
 
 .width-100[![](./figures/pic/fl-local.png)]
 .center.caption-fig[Типовi кривi валiдацiйних втрат а) та валiдацiйної точностi б) для архiтектури LCNet050 з рiзною кiлькiстю опорних моделей
-$N\_{MB} \in \{1, 2, 4\}$, кiлькiстю локальних епох $N\_{le} \in \{1, 10, 100\}$  для розмiру пакету $N\_b = 32$]
+$N\_{MB} \in \\{1, 2, 4\\}$, кiлькiстю локальних епох $N\_{le} \in \\{1, 10, 100\\}$  для розмiру пакету $N\_b = 32$]
 
 ---
 
