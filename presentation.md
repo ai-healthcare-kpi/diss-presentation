@@ -1,23 +1,26 @@
 class: middle, center,  black-slide,  title-slide
 
 background-image: url(./figures/pic/voice-wave.gif)
-background-size: cover
+background-size: 100% 95%
+background-position: center bottom
+background-repeat: no-repeat
 
 
 <br>
-.larger-x.title[Метод глибинного машинного навчання для ідентифікації, класифікації та семантичної сегментації об’єктів] 
+.larger-x.title[Метод глибинного машинного навчання для ідентифікації, класифікації та семантичної сегментації об’єктів]
 
-.smaller-x[Результати дисертаційного дослідження на здобуття наукового ступеня]<br>
-Доктор фiлософії
+.smaller-x[121 «Інженерія програмного забезпечення»<br> 12 «Інформаційні технології»] 
+
+.smaller-x[Результати дисертаційного дослідження на здобуття наукового ступеня доктора фiлософії]
 
 
-<br><br><br><br>
+<br><br><br>
 .larger-x[Кочура Юрій Петрович]<br><br>
 .left[Науковий керiвник<br>
 .bold[Гордієнко Юрій Григорович], д-р. фiз.-мат. наук, проф.]  <br>
 
 
- 2026
+ Київ &mdash; 2026
 
 ???
 Скорочення: https://bati.nubip.edu.ua/index.php/ua/activityfooter/vimogi-do-skorochennya-nazv-naukovikh-stupeniv.html
