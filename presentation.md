@@ -1741,6 +1741,7 @@ count: false
 .larger-xx[Звіт подібності]
 
 ---
+
 exclude: true
 [.center.width-100[![](figures/report.png)]]()
 
@@ -1752,9 +1753,64 @@ exclude: true
 
 ---
 
+exclude: true
 class:  middle, center
 count: false
 
 .larger-xxx[Дякую за увагу!
 
-⌛] 
+⌛]
+
+---
+
+class: middle, center,  black-slide,  title-slide
+
+background-image: url(./figures/pic/voice-wave.gif)
+background-size: 100% 95%
+background-position: center bottom
+background-repeat: no-repeat
+
+
+<br>
+.larger-x.title[Метод глибинного машинного навчання для ідентифікації, класифікації та семантичної сегментації об’єктів]
+
+.smaller-x[121 «Інженерія програмного забезпечення»<br> 12 «Інформаційні технології»] 
+
+.smaller-x[Результати дисертаційного дослідження на здобуття наукового ступеня доктора фiлософії]
+
+
+<br><br><br>
+.larger-x[Кочура Юрій Петрович]<br><br>
+.left[Науковий керiвник<br>
+.bold[Гордієнко Юрій Григорович], д-р. фiз.-мат. наук, проф.]  <br>
+
+
+ Київ &mdash; 2026 
+
+---
+
+## Зауваження рецензента Волокити А.М.
+
+.center[<iframe src="volokyta_zauvazhennya.html" width="800" height="700" style="border:none;"></iframe>]
+
+---
+
+## Зауваження рецензента Шелестова А.Ю.
+
+.center[<iframe src="zauvazhennya_shelestova.html" width="800" height="700" style="border:none;"></iframe>]
+
+---
+
+## Зауваження опонента Чумаченка Д.І.
+
+.center[<iframe src="chumachenko_zauvazhennya.html" width="800" height="700" style="border:none;"></iframe>]
+
+---
+
+## Зауваження опонента Снитюка В.Є.
+
+.center[<iframe src="snytyuk_zauvazhennya.html" width="800" height="700" style="border:none;"></iframe>]
+
+---
+
+
