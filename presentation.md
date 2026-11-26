@@ -853,6 +853,14 @@ count: false
 
 ---
 
+class: middle, video-full
+
+<video controls preload="auto">
+  <source src="./figures/pic/Technology.mp4" type="video/mp4">
+</video>
+
+---
+
 ## Метод сегментації: математична постановка задачі
 
 Нехай $\mathbf{X} \in \mathbb{R}^{H \times W}$ — 2D рентгенограма грудної клітки з датасету, де $H$ та $W$ позначають відповідно висоту та ширину зображення.

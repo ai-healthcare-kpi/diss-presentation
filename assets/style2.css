@@ -1021,3 +1021,15 @@ td {
   position: relative;
   z-index: 1;
 }
+
+.remark-slide-content.video-full {
+  background-color: black;
+  padding: 0 !important;
+}
+
+.remark-slide-content.video-full video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
